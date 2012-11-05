@@ -2,7 +2,7 @@
   "author": "Shopfrogs <info@shopfrogs.com>",
   "name": "wlaurance-nodify-shopify",
   "description": "Shopify API client",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "repository": {
     "type": "git",
     "url": "git://github.com:wlaurance/Nodify.git"
@@ -15,8 +15,8 @@
     "node": "~0.8.x"
   },
   "dependencies": {
-    "request": "*"
-    ,"singleton":"*"
+    "request": "*",
+    "singleton": "*"
   },
   "devDependencies": {
     "mocha": "*",
