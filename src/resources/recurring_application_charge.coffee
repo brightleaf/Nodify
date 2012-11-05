@@ -1,4 +1,4 @@
-Base = require './base'
+Base = require __dirname + '/base'
 
 class RecurringApplicationCharge extends Base 
 	slug: "recurring_application_charge"

@@ -1,5 +1,5 @@
-BaseChild = require './base_child'
-Metafields = require './metafield'
+BaseChild = require __dirname + '/base_child'
+Metafields = require __dirname + '/metafield'
 
 class ProductVariant extends BaseChild
 	parent: "/products"

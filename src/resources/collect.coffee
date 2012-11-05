@@ -1,4 +1,4 @@
-Base = require './base'
+Base = require __dirname + '/base'
 
 class Collect extends Base
 	slug: "collect"

@@ -1,7 +1,7 @@
-Blog = require './resources/blog'
-Product = require './resources/product'
-Order = require './resources/order'
-Resource = require './resource'
+Blog = require __dirname + '/resources/blog'
+Product = require __dirname + '/resources/product'
+Order = require __dirname + '/resources/order'
+Resource = require __dirname + '/resource'
 
 class Session
 

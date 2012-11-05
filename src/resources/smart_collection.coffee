@@ -1,4 +1,4 @@
-Base = require './base'
+Base = require __dirname + '/base'
 
 class SmartCollection extends Base
 	slug: "smart_collection"

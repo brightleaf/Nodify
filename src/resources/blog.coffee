@@ -1,5 +1,5 @@
-Base = require './base'
-Metafields = require './metafield'
+Base = require __dirname + '/base'
+Metafields = require __dirname + '/metafield'
 
 class Blog extends Base
 	slug: "blog"

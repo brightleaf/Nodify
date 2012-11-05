@@ -1,4 +1,4 @@
-BaseChild = require './base_child'
+BaseChild = require __dirname + '/base_child'
 
 class Fulfillment extends BaseChild
 	parent: "/orders"
