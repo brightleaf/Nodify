@@ -9,7 +9,7 @@ runCommand = (name, args...) ->
   proc.stdout.on 'data', (buffer) -> console.log buffer.toString()
   proc.on 'exit', (status) -> process.exit(1) if status isnt 0
 
-task 'project:watch', 'Watch source files and build JS', (options) ->
+task 'dev', 'Watch source files and build JS', (options) ->
   runCommand './node_modules/.bin/coffee', '-o', 'lib/', '-wc', 'src/'
   runCommand './node_modules/.bin/coffee', '-o', 'lib/resources', '-wc', 'src/resources'
 

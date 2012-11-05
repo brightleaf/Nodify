@@ -1,29 +1,29 @@
 {
   "author": "Shopfrogs <info@shopfrogs.com>",
-  "name": "nodify-shopify",
+  "name": "wlaurance-nodify-shopify",
   "description": "Shopify API client",
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com:Shopfrogs/Nodify.git"
+    "url": "git://github.com:wlaurance/Nodify.git"
   },
   "main": "./lib/main.js",
   "scripts": {
     "test": "cake test"
   },
   "engines": {
-    "node": "0.6.x"
+    "node": "~0.8.x"
   },
   "dependencies": {
-    "request": "2.9.x"
+    "request": "*"
     ,"singleton":"*"
   },
   "devDependencies": {
-    "mocha": "0.12.x",
-    "should": "0.5.x",
+    "mocha": "*",
+    "should": "*",
     "nock": "*",
-    "docco": "0.3.x",
-    "coffee-script": "1.2.x",
-    "paige": "0.1.x"
+    "docco": "*",
+    "coffee-script": "*",
+    "paige": "*"
   }
 }
