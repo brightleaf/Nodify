@@ -1,5 +1,2 @@
-Session = require './session-oauth'
-
-
-exports.createSession = (url, token, apiKey, secret, params) ->
-	new Session(url, token, apiKey, secret, params)
+exports.createSession = (shopname, permanent_token) ->
+	new (require __dirname + "/session")(shopname, permanent_token)
