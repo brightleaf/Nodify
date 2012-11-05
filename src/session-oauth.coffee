@@ -6,8 +6,8 @@ Session = require './session'
 
 class SessionOAuth extends Session
 
-  constructor:(@store_name, @api_key, @secret, @persistent_token = null)->
-    super @store_name, @api_key, @secret
+  constructor:(@store_name, @persistent_token)->
+    super @store_name, '',''
     @registerOAuthToken()
 
   onRedirectUrl:(url, cb)->
